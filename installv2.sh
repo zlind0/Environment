@@ -16,6 +16,8 @@ chmod +x install.sh && sudo bash install.sh
 # curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
 # sudo bash install-release.sh
 
+bash <(curl -sL https://s.hijk.art/v2ray.sh)
+
 # install bbr
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
